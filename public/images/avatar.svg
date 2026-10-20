@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" fill="none">
+  <defs>
+    <radialGradient id="base" cx="0" cy="0" r="1" gradientTransform="translate(380 260) rotate(51) scale(760)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17352F"/>
+      <stop offset="0.5" stop-color="#0A121D"/>
+      <stop offset="1" stop-color="#05070D"/>
+    </radialGradient>
+    <radialGradient id="teal" cx="0" cy="0" r="1" gradientTransform="translate(280 360) rotate(45) scale(430)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CF5D0" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#7CF5D0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet" cx="0" cy="0" r="1" gradientTransform="translate(710 650) rotate(-135) scale(380)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B8CFF" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#7B8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="170" y1="160" x2="740" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9FFEB" stop-opacity="0.7"/>
+      <stop offset="0.55" stop-color="#7CF5D0" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#AAB9FF" stop-opacity="0.42"/>
+    </linearGradient>
+    <linearGradient id="name" x1="272" y1="390" x2="640" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FAFF"/>
+      <stop offset="1" stop-color="#A7BBCD"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.1"/></filter>
+  </defs>
+  <rect width="900" height="900" rx="450" fill="url(#base)"/>
+  <rect width="900" height="900" rx="450" fill="url(#teal)"/>
+  <rect width="900" height="900" rx="450" fill="url(#violet)"/>
+  <g stroke="#C9E8E0" opacity="0.3">
+    <circle cx="450" cy="450" r="326" stroke-opacity="0.16"/>
+    <circle cx="450" cy="450" r="266" stroke-opacity="0.18" stroke-dasharray="2 9"/>
+    <ellipse cx="450" cy="450" rx="386" ry="154" transform="rotate(-28 450 450)" stroke="url(#line)"/>
+    <ellipse cx="450" cy="450" rx="354" ry="332" transform="rotate(58 450 450)" stroke-opacity="0.1"/>
+  </g>
+  <g fill="#DDFFF6">
+    <circle cx="182" cy="352" r="2.6"/>
+    <circle cx="736" cy="260" r="2" opacity="0.7"/>
+    <circle cx="670" cy="702" r="3.2"/>
+    <circle cx="238" cy="640" r="1.8" opacity="0.65"/>
+    <circle cx="304" cy="178" r="1.6" opacity="0.5"/>
+    <circle cx="790" cy="486" r="1.6" opacity="0.55"/>
+  </g>
+  <circle cx="752" cy="385" r="7" fill="#7CF5D0"/>
+  <circle cx="752" cy="385" r="16" stroke="#7CF5D0" stroke-opacity="0.3"/>
+  <path d="M213 700l3 7.4 7.4 3-7.4 3-3 7.4-3-7.4-7.4-3 7.4-3 3-7.4Z" fill="#DDFFF6" opacity="0.75"/>
+  <text x="450" y="492" text-anchor="middle" fill="url(#name)" font-family="Arial, Helvetica, sans-serif" font-size="228" font-weight="600" letter-spacing="-10">LC</text>
+  <path d="M325 536H575" stroke="#C9E8E0" stroke-opacity="0.24"/>
+  <text x="450" y="586" text-anchor="middle" fill="#A8BFCA" font-family="Arial, sans-serif" font-size="21" letter-spacing="7">LIN CHUAN</text>
+  <text x="450" y="622" text-anchor="middle" fill="#64798A" font-family="Arial, sans-serif" font-size="13" letter-spacing="4.4">DESIGNER / DEVELOPER</text>
+  <g opacity="0.5" filter="url(#soft)">
+    <circle cx="450" cy="450" r="366" stroke="#E5FFF8" stroke-opacity="0.14"/>
+  </g>
+</svg>

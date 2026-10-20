@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(810 180) rotate(135) scale(860)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15352F"/>
+      <stop offset="0.45" stop-color="#0A111D"/>
+      <stop offset="1" stop-color="#05070D"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(840 430) rotate(90) scale(300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CF5D0" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#7CF5D0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="text" x1="90" y1="300" x2="640" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F8FF"/>
+      <stop offset="1" stop-color="#9DB0C8"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" stroke="#A9C6D2" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g opacity="0.8">
+    <circle cx="880" cy="320" r="206" stroke="#9CFFE3" stroke-opacity="0.16"/>
+    <circle cx="880" cy="320" r="148" stroke="#9CFFE3" stroke-opacity="0.25"/>
+    <ellipse cx="880" cy="320" rx="330" ry="118" transform="rotate(-32 880 320)" stroke="#D7FFF3" stroke-opacity="0.18"/>
+    <circle cx="1090" cy="177" r="7" fill="#7CF5D0"/>
+    <circle cx="680" cy="438" r="3" fill="#D7FFF3"/>
+    <circle cx="1046" cy="468" r="2.5" fill="#D7FFF3"/>
+  </g>
+  <g transform="translate(104 116)">
+    <rect x="0" y="0" width="210" height="34" rx="17" stroke="#7CF5D0" stroke-opacity="0.35"/>
+    <circle cx="21" cy="17" r="4" fill="#7CF5D0"/>
+    <text x="36" y="23" fill="#A8C8C0" font-family="Arial, sans-serif" font-size="13" letter-spacing="2.4">FULL-STACK · DESIGN</text>
+  </g>
+  <text x="100" y="315" fill="url(#text)" font-family="Arial, Helvetica, sans-serif" font-size="126" font-weight="700" letter-spacing="-4">LIN CHUAN</text>
+  <text x="104" y="375" fill="#8FA1B8" font-family="Arial, sans-serif" font-size="25" letter-spacing="5">全栈开发者 / 产品设计者</text>
+  <path d="M104 438H506" stroke="#A9C6D2" stroke-opacity="0.22"/>
+  <text x="104" y="490" fill="#E6F0FF" font-family="Arial, sans-serif" font-size="24" letter-spacing="1">在代码与设计之间，构建有温度的数字体验。</text>
+  <text x="104" y="562" fill="#66788E" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">PORTFOLIO 2026 · ORBIT</text>
+  <g transform="translate(1036 520)">
+    <path d="M0 18l7-7 7 7 7-7 7 7" stroke="#7CF5D0" stroke-opacity="0.6" stroke-width="1.4"/>
+  </g>
+</svg>

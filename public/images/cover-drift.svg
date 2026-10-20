@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101B2C"/>
+      <stop offset="0.45" stop-color="#1E2D39"/>
+      <stop offset="0.68" stop-color="#3D3B3B"/>
+      <stop offset="1" stop-color="#0D1015"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="translate(1080 475) rotate(90) scale(225)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD6A1" stop-opacity="0.62"/>
+      <stop offset="0.55" stop-color="#E3A774" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#E3A774" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dune1" x1="800" y1="580" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E2929"/>
+      <stop offset="1" stop-color="#080D11"/>
+    </linearGradient>
+    <linearGradient id="dune2" x1="800" y1="700" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11191B"/>
+      <stop offset="1" stop-color="#05080B"/>
+    </linearGradient>
+    <linearGradient id="path" x1="1070" y1="574" x2="650" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3C39A" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#E3C39A" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="title" x1="116" y1="628" x2="650" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8EE"/>
+      <stop offset="1" stop-color="#C5B9A7"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070D" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#05070D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1080" cy="475" r="225" fill="url(#sun)"/>
+  <circle cx="1080" cy="475" r="58" fill="#F7D9AA" fill-opacity="0.72"/>
+  <circle cx="1080" cy="475" r="76" stroke="#FFE8C4" stroke-opacity="0.22"/>
+  <g fill="#FFF4E2">
+    <circle cx="218" cy="178" r="1.8" opacity="0.7"/><circle cx="456" cy="121" r="1.3" opacity="0.5"/>
+    <circle cx="1350" cy="156" r="2" opacity="0.6"/><circle cx="945" cy="226" r="1.4" opacity="0.45"/>
+    <circle cx="1190" cy="94" r="1.6" opacity="0.6"/><circle cx="679" cy="284" r="1.2" opacity="0.4"/>
+  </g>
+  <path d="M0 588C245 533 492 520 680 558C895 601 1098 626 1600 536V1000H0V588Z" fill="url(#dune1)"/>
+  <path d="M0 752C214 688 396 692 589 741C852 809 1132 837 1600 716V1000H0V752Z" fill="url(#dune2)"/>
+  <path d="M1110 570C1041 643 989 711 914 781C837 852 759 906 651 1000" stroke="url(#path)" stroke-width="26" stroke-linecap="round" opacity="0.32"/>
+  <path d="M1110 570C1041 643 989 711 914 781C837 852 759 906 651 1000" stroke="#F6E3C4" stroke-opacity="0.4" stroke-width="1.2" stroke-dasharray="3 14"/>
+  <ellipse cx="730" cy="852" rx="84" ry="8" fill="#05080B" fill-opacity="0.55"/>
+  <g transform="translate(118 118)">
+    <path d="M0 28C20 8 45 8 66 28" stroke="#E4C9A6" stroke-opacity="0.42"/>
+    <text x="82" y="35" fill="#B4A797" font-family="Arial, sans-serif" font-size="15" letter-spacing="3.6">SLOW TRAVEL — FIELD NOTES</text>
+  </g>
+  <text x="114" y="638" fill="#9C8C7B" font-family="Arial, sans-serif" font-size="16" letter-spacing="4">A JOURNAL OF WALKING</text>
+  <text x="110" y="814" fill="url(#title)" font-family="Arial, Helvetica, sans-serif" font-size="142" font-weight="500" letter-spacing="-6">慢行记</text>
+  <text x="120" y="878" fill="#B1A391" font-family="Arial, sans-serif" font-size="24" letter-spacing="0.4">不追热点，只记录走过的路。</text>
+  <path d="M120 924H438" stroke="#EFD4AA" stroke-opacity="0.32"/>
+  <text x="120" y="958" fill="#7E7367" font-family="Arial, sans-serif" font-size="13" letter-spacing="3">HANGZHOU · KYOTO · LISBON</text>
+  <rect x="0" y="0" width="700" height="1000" fill="url(#fade)" opacity="0.24"/>
+</svg>

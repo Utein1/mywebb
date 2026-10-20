@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(810 260) rotate(131) scale(850)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15283D"/>
+      <stop offset="0.45" stop-color="#0A111E"/>
+      <stop offset="1" stop-color="#05070D"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="80" y1="540" x2="1110" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CF5D0" stop-opacity="0"/>
+      <stop offset="0.42" stop-color="#7CF5D0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9AABFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="text" x1="82" y1="390" x2="690" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F9FF"/>
+      <stop offset="1" stop-color="#94A5BA"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" stroke="#DAE2FF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <g fill="#D9FFF7">
+    <circle cx="958" cy="140" r="2"/><circle cx="1082" cy="296" r="1.4" opacity="0.6"/>
+    <circle cx="762" cy="520" r="1.6" opacity="0.55"/><circle cx="1134" cy="480" r="1.2" opacity="0.4"/>
+  </g>
+  <g stroke="url(#beam)" stroke-width="1.2">
+    <path d="M702 520L922 356L1078 408L1131 236"/>
+    <path d="M702 520L849 566L1038 488L1078 408" stroke-opacity="0.5"/>
+    <path d="M849 566L840 644" stroke-opacity="0.35"/>
+    <path d="M922 356L840 644" stroke-opacity="0.25"/>
+    <path d="M1038 488L1131 236" stroke-opacity="0.4"/>
+  </g>
+  <g>
+    <circle cx="702" cy="520" r="8" fill="#D7FFF3"/>
+    <circle cx="702" cy="520" r="18" stroke="#7CF5D0" stroke-opacity="0.3"/>
+    <circle cx="922" cy="356" r="6" fill="#7CF5D0"/>
+    <circle cx="1078" cy="408" r="10" fill="#0A1420" stroke="#9CFFE3" stroke-opacity="0.45"/>
+    <circle cx="1078" cy="408" r="3" fill="#D7FFF3"/>
+    <circle cx="1131" cy="236" r="5" fill="#9AABFF"/>
+    <circle cx="849" cy="566" r="4" fill="#D7FFF3"/>
+    <circle cx="1038" cy="488" r="3" fill="#9CFFE3"/>
+    <circle cx="840" cy="644" r="2" fill="#9AABFF"/>
+  </g>
+  <path d="M690 580C764 552 825 540 899 546C977 552 1046 576 1120 604" stroke="#8CA8BC" stroke-opacity="0.15"/>
+  <g transform="translate(82 80)">
+    <rect x="0" y="0" width="150" height="32" rx="16" stroke="#7CF5D0" stroke-opacity="0.26"/>
+    <circle cx="17" cy="16" r="3" fill="#7CF5D0"/>
+    <text x="30" y="21" fill="#829CAB" font-family="Arial, sans-serif" font-size="11" letter-spacing="2.2">ENGINEERING</text>
+  </g>
+  <text x="80" y="326" fill="url(#text)" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="600" letter-spacing="-2">一个人也能维护的</text>
+  <text x="80" y="400" fill="url(#text)" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="600" letter-spacing="-2">Cloudflare 技术栈</text>
+  <text x="82" y="460" fill="#7C8DA2" font-family="Arial, sans-serif" font-size="17" letter-spacing="0.5">没有服务器需要照顾，把时间留给内容。</text>
+  <text x="82" y="558" fill="#5E7184" font-family="Arial, sans-serif" font-size="12" letter-spacing="2.6">WORKERS · D1 · EDGE · 2026</text>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "林川 · 个人网站",
+  "short_name": "林川",
+  "description": "全栈开发者与产品设计者的个人网站。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070d",
+  "theme_color": "#05070d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

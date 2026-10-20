@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(1240 200) rotate(128) scale(1200)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#162740"/>
+      <stop offset="0.4" stop-color="#0A1220"/>
+      <stop offset="1" stop-color="#05080D"/>
+    </radialGradient>
+    <linearGradient id="wave" x1="120" y1="600" x2="1490" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CF5D0" stop-opacity="0.15"/>
+      <stop offset="0.28" stop-color="#7CF5D0"/>
+      <stop offset="0.62" stop-color="#88B9FF"/>
+      <stop offset="1" stop-color="#A796FF" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="title" x1="120" y1="170" x2="760" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F9FF"/>
+      <stop offset="1" stop-color="#91A4BE"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(1048 604) rotate(90) scale(280)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CF5D0" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#7CF5D0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" stroke="#D6E7FF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <circle cx="1048" cy="604" r="280" fill="url(#halo)"/>
+  <g opacity="0.72">
+    <circle cx="1048" cy="604" r="178" stroke="#9CFFE3" stroke-opacity="0.24" stroke-dasharray="2 10"/>
+    <circle cx="1048" cy="604" r="120" stroke="#9CFFE3" stroke-opacity="0.17"/>
+    <path d="M1048 450V758M894 604H1202" stroke="#9CFFE3" stroke-opacity="0.08"/>
+  </g>
+  <g transform="translate(1048 604)">
+    <circle r="64" fill="#081A1A" fill-opacity="0.62" stroke="#9CFFE3" stroke-opacity="0.28"/>
+    <path d="M-34 4H-20L-11-24L0 30L11-13L20 8H34" stroke="#7CF5D0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="110" y="536" width="14" height="126" rx="7" fill="#7CF5D0" fill-opacity="0.24"/>
+    <rect x="146" y="574" width="14" height="88" rx="7" fill="#7CF5D0" fill-opacity="0.35"/>
+    <rect x="182" y="508" width="14" height="154" rx="7" fill="#7CF5D0" fill-opacity="0.5"/>
+    <rect x="218" y="556" width="14" height="106" rx="7" fill="#7CF5D0" fill-opacity="0.35"/>
+    <rect x="254" y="614" width="14" height="48" rx="7" fill="#7CF5D0" fill-opacity="0.3"/>
+    <rect x="290" y="590" width="14" height="72" rx="7" fill="#7CF5D0" fill-opacity="0.26"/>
+  </g>
+  <path d="M342 663C480 663 503 540 622 540C748 540 755 644 875 644C994 644 1018 520 1145 520C1260 520 1313 590 1460 590" stroke="url(#wave)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M342 669C480 669 503 546 622 546C748 546 755 650 875 650C994 650 1018 526 1145 526C1260 526 1313 596 1460 596" stroke="url(#wave)" stroke-opacity="0.18" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(120 112)">
+    <rect x="0" y="0" width="154" height="38" rx="19" stroke="#8DA6C4" stroke-opacity="0.28"/>
+    <circle cx="21" cy="19" r="4" fill="#7CF5D0"/>
+    <text x="35" y="24" fill="#98AABF" font-family="Arial, sans-serif" font-size="13" letter-spacing="2.8">LIVE / 01</text>
+  </g>
+  <text x="114" y="258" fill="url(#title)" font-family="Arial, Helvetica, sans-serif" font-size="146" font-weight="700" letter-spacing="-7">PULSE</text>
+  <text x="120" y="326" fill="#8C9EB4" font-family="Arial, sans-serif" font-size="28" letter-spacing="1">看清真正重要的信号。</text>
+  <g transform="translate(120 797)">
+    <text x="0" y="0" fill="#5E7288" font-family="Arial, sans-serif" font-size="14" letter-spacing="3.4">PRIVACY-FIRST ANALYTICS</text>
+    <text x="0" y="68" fill="#C8DAEA" font-family="Arial, sans-serif" font-size="22" letter-spacing="0.6">轻量、克制、把数据还给洞察。</text>
+    <line x1="0" y1="106" x2="388" y2="106" stroke="#93A7BD" stroke-opacity="0.2"/>
+    <text x="0" y="137" fill="#586C82" font-family="Arial, sans-serif" font-size="13" letter-spacing="2.6">40+ PRODUCTS · 100% COOKIE-FREE</text>
+  </g>
+  <g fill="#D9FFF6">
+    <circle cx="1444" cy="226" r="2.5"/><circle cx="883" cy="218" r="1.6"/><circle cx="1372" cy="744" r="1.9"/><circle cx="724" cy="828" r="1.5"/>
+  </g>
+</svg>

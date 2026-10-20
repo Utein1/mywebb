@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(980 360) rotate(132) scale(1080)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132E2C"/>
+      <stop offset="0.42" stop-color="#0B141D"/>
+      <stop offset="1" stop-color="#05080D"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1010 484) rotate(90) scale(480)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CF5D0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#7CF5D0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="790" y1="670" x2="1320" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CF5D0" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#9CFFE3" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#A7C4FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="38" height="38" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#D7FFF3" fill-opacity="0.11"/>
+    </pattern>
+    <linearGradient id="title" x1="120" y1="710" x2="780" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0F8FF"/>
+      <stop offset="1" stop-color="#9AACBD"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <rect x="840" y="70" width="700" height="860" fill="url(#glow)"/>
+  <g opacity="0.55" stroke="#C7E8DF">
+    <circle cx="1110" cy="478" r="314" stroke-opacity="0.1"/>
+    <circle cx="1110" cy="478" r="240" stroke-opacity="0.13" stroke-dasharray="1 12"/>
+  </g>
+  <g stroke="url(#beam)" stroke-width="1.5">
+    <path d="M726 621C848 574 942 512 1014 437C1086 362 1099 292 1088 204"/>
+    <path d="M825 702C922 644 1022 604 1136 600C1233 597 1309 626 1374 686" stroke-opacity="0.6"/>
+    <path d="M928 325C1005 362 1075 393 1141 457C1206 520 1239 590 1247 679" stroke-opacity="0.6"/>
+    <path d="M976 568C1059 535 1141 521 1229 532C1301 541 1356 563 1411 598" stroke-opacity="0.35"/>
+  </g>
+  <g>
+    <circle cx="726" cy="621" r="25" fill="#0A1718" stroke="#7CF5D0" stroke-opacity="0.45"/>
+    <circle cx="726" cy="621" r="7" fill="#9CFFE3"/>
+    <circle cx="825" cy="702" r="18" fill="#0A1718" stroke="#9CFFE3" stroke-opacity="0.32"/>
+    <circle cx="825" cy="702" r="5" fill="#D7FFF3"/>
+    <circle cx="928" cy="325" r="17" fill="#0A1718" stroke="#B9C7FF" stroke-opacity="0.38"/>
+    <circle cx="928" cy="325" r="5" fill="#C8D2FF"/>
+    <circle cx="1088" cy="204" r="10" fill="#D7FFF3"/>
+    <circle cx="1136" cy="600" r="32" fill="#7CF5D0" fill-opacity="0.1" stroke="#7CF5D0" stroke-opacity="0.5"/>
+    <circle cx="1136" cy="600" r="10" fill="#7CF5D0"/>
+    <circle cx="1247" cy="679" r="14" fill="#0A1718" stroke="#9CFFE3" stroke-opacity="0.35"/>
+    <circle cx="1247" cy="679" r="4" fill="#D7FFF3"/>
+    <circle cx="1411" cy="598" r="5" fill="#B9C7FF"/>
+    <circle cx="976" cy="568" r="4" fill="#D7FFF3"/>
+  </g>
+  <g fill="#E4FFF8">
+    <circle cx="1289" cy="287" r="2"/><circle cx="911" cy="756" r="2.4"/><circle cx="1394" cy="477" r="1.7"/>
+    <circle cx="1046" cy="814" r="1.8"/><circle cx="1183" cy="160" r="2.2"/><circle cx="698" cy="415" r="1.5"/>
+  </g>
+  <g transform="translate(120 104)">
+    <circle cx="7" cy="7" r="7" stroke="#7CF5D0" stroke-opacity="0.65"/>
+    <circle cx="7" cy="7" r="2" fill="#7CF5D0"/>
+    <text x="28" y="13" fill="#85A49D" font-family="Arial, sans-serif" font-size="16" letter-spacing="3.6">AEON NOTES — KNOWLEDGE GRAPH</text>
+  </g>
+  <text x="120" y="708" fill="#758B94" font-family="Arial, sans-serif" font-size="17" letter-spacing="4.2">01 / CONNECTED THINKING</text>
+  <text x="114" y="806" fill="url(#title)" font-family="Arial, Helvetica, sans-serif" font-size="106" font-weight="600" letter-spacing="-4">让想法彼此相连</text>
+  <text x="120" y="866" fill="#859BA5" font-family="Arial, sans-serif" font-size="25" letter-spacing="0.8">让碎片灵感，自然长成一张知识星图。</text>
+  <path d="M120 914H513" stroke="#7CF5D0" stroke-opacity="0.35"/>
+  <text x="120" y="946" fill="#62777C" font-family="Arial, sans-serif" font-size="14" letter-spacing="3">PRODUCT DESIGN · FULL-STACK · AI</text>
+  <g transform="translate(1392 814)">
+    <path d="M0 32C22 12 49 2 82 2" stroke="#7CF5D0" stroke-opacity="0.28"/>
+    <circle cx="0" cy="32" r="3" fill="#7CF5D0"/>
+  </g>
+</svg>

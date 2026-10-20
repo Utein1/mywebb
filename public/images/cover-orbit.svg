@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(1130 350) rotate(130) scale(1100)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#23233F"/>
+      <stop offset="0.42" stop-color="#0D111E"/>
+      <stop offset="1" stop-color="#05070C"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="820" y1="190" x2="1460" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5FFDA"/>
+      <stop offset="0.48" stop-color="#7CF5D0"/>
+      <stop offset="1" stop-color="#A7A6FF"/>
+    </linearGradient>
+    <linearGradient id="title" x1="118" y1="650" x2="740" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F7FF"/>
+      <stop offset="1" stop-color="#A4ADC8"/>
+    </linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" stroke="#D9DEFF" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="52"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <circle cx="1250" cy="300" r="210" fill="#7CF5D0" fill-opacity="0.1" filter="url(#blur)"/>
+  <circle cx="900" cy="720" r="190" fill="#8A8CFF" fill-opacity="0.12" filter="url(#blur)"/>
+  <g transform="translate(790 126)" stroke="url(#accent)">
+    <rect x="0" y="0" width="700" height="680" rx="26" fill="#0A111A" fill-opacity="0.7" stroke-opacity="0.28"/>
+    <line x1="1" y1="66" x2="699" y2="66" stroke-opacity="0.18"/>
+    <circle cx="34" cy="33" r="4" fill="#7CF5D0" stroke="none"/>
+    <circle cx="54" cy="33" r="4" fill="#6D7898" stroke="none" opacity="0.6"/>
+    <circle cx="74" cy="33" r="4" fill="#6D7898" stroke="none" opacity="0.35"/>
+    <text x="104" y="38" fill="#6C7A95" font-family="Arial, sans-serif" font-size="13" letter-spacing="2.2" stroke="none">ORBIT / COMPONENTS</text>
+    <g stroke="#B6E7DD" stroke-opacity="0.14">
+      <rect x="38" y="108" width="190" height="248" rx="16" fill="#0D1722"/>
+      <rect x="256" y="108" width="406" height="108" rx="16" fill="#0D1722"/>
+      <rect x="256" y="246" width="190" height="214" rx="16" fill="#0D1722"/>
+      <rect x="470" y="246" width="192" height="214" rx="16" fill="#0D1722"/>
+      <rect x="38" y="388" width="190" height="214" rx="16" fill="#0D1722"/>
+      <rect x="256" y="494" width="406" height="108" rx="16" fill="#0D1722"/>
+    </g>
+    <circle cx="133" cy="200" r="45" stroke="#7CF5D0" stroke-opacity="0.5"/>
+    <path d="M98 200H168M133 165V235" stroke="#7CF5D0" stroke-opacity="0.24"/>
+    <circle cx="133" cy="200" r="12" fill="#7CF5D0"/>
+    <text x="68" y="300" fill="#6F7F99" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.8" stroke="none">TOKEN · 07</text>
+    <text x="280" y="151" fill="#E5F7FF" font-family="Arial, sans-serif" font-size="24" stroke="none">为暗色界面而生</text>
+    <text x="280" y="183" fill="#65768F" font-family="Arial, sans-serif" font-size="14" stroke="none">30+ accessible, composable components.</text>
+    <rect x="282" y="136" width="52" height="5" rx="2.5" fill="url(#accent)" stroke="none" opacity="0.7"/>
+    <circle cx="298" cy="320" r="26" fill="#7CF5D0" fill-opacity="0.12"/>
+    <circle cx="298" cy="320" r="8" fill="#7CF5D0" stroke="none"/>
+    <path d="M328 326H378" stroke="#8FA4BB" stroke-opacity="0.3"/>
+    <rect x="328" y="300" width="74" height="8" rx="4" fill="#8294AD" fill-opacity="0.35" stroke="none"/>
+    <rect x="328" y="316" width="48" height="6" rx="3" fill="#8294AD" fill-opacity="0.2" stroke="none"/>
+    <circle cx="512" cy="318" r="44" stroke="#A7A6FF" stroke-opacity="0.35"/>
+    <path d="M480 350L512 278L544 350H480Z" fill="#A7A6FF" fill-opacity="0.18" stroke="#C4C3FF" stroke-opacity="0.4"/>
+    <text x="492" y="420" fill="#647890" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.4" stroke="none">THEME</text>
+    <rect x="64" y="426" width="10" height="10" rx="3" fill="#7CF5D0" stroke="none"/>
+    <rect x="82" y="426" width="10" height="10" rx="3" fill="#A7A6FF" stroke="none"/>
+    <rect x="100" y="426" width="10" height="10" rx="3" fill="#FFD79C" stroke="none"/>
+    <rect x="118" y="426" width="10" height="10" rx="3" fill="#7698B3" stroke="none"/>
+    <text x="64" y="470" fill="#687A91" font-family="Arial, sans-serif" font-size="12" stroke="none">COLOR / SEMANTIC</text>
+    <rect x="280" y="526" width="284" height="12" rx="6" fill="#8EA1B8" fill-opacity="0.15" stroke="none"/>
+    <rect x="280" y="526" width="172" height="12" rx="6" fill="url(#accent)" stroke="none"/>
+    <text x="280" y="568" fill="#61738C" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.4" stroke="none">PROGRESS / 60</text>
+  </g>
+  <g transform="translate(118 120)">
+    <text x="0" y="0" fill="#7C8AA2" font-family="Arial, sans-serif" font-size="15" letter-spacing="3.4">OPEN SOURCE DESIGN SYSTEM</text>
+  </g>
+  <text x="114" y="666" fill="url(#title)" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="600" letter-spacing="-4">ORBIT UI</text>
+  <text x="120" y="727" fill="#8F9BB0" font-family="Arial, sans-serif" font-size="24">一套克制、可组合、为深色而生的界面语言。</text>
+  <path d="M120 789H520" stroke="#8FA4BB" stroke-opacity="0.2"/>
+  <text x="120" y="836" fill="#5F6F86" font-family="Arial, sans-serif" font-size="14" letter-spacing="2.6">REACT · RADIX UI · STORYBOOK · FIGMA</text>
+  <g transform="translate(120 898)">
+    <path d="M0 12C34 12 35-2 69-2C103-2 105 12 139 12" stroke="#7CF5D0" stroke-opacity="0.3"/>
+    <circle cx="139" cy="12" r="3" fill="#7CF5D0"/>
+  </g>
+</svg>
